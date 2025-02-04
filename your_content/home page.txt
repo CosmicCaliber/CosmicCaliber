@@ -38,7 +38,7 @@
 
 <p style="text-align:center"><span style="font-size:22px"><em><strong>List of </strong></em><span style="color:hsl(30, 75%, 60%)"><em><strong>patrons</strong></em></span></span></p>
 
-<p><span style="font-size:20px"><em>Corvid_Conquest</em></span></p>
+<p><span style="font-size:20px"><em></em></span></p>
 
 
 
