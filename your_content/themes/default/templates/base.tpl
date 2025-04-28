@@ -58,8 +58,9 @@ in this template, before they're used to create HTML files. #}
 
 <div id="powered-by">
     <p style="text-align:center">
+		<a href="https://t.me/AspensArtRoom" target="_blank"><img alt="Patreon Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" style="height:35px; width:35px" /></a>&nbsp;&nbsp;
         <a href="https://www.patreon.com/BadAspen" target="_blank"><img alt="Patreon Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Patreon_logo.svg/800px-Patreon_logo.svg.png" style="height:35px; width:35px" /></a>&nbsp;&nbsp;
-        <a href="https://twitter.com/BadAspen" target="_blank"><img alt="Twitter Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" style="height:33px; width:40px" /></a>&nbsp;&nbsp;
+        <a href="https://bsky.app/profile/badaspen.bsky.social" target="_blank"><img alt="Twitter Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1200px-Bluesky_Logo.svg.png" style="height:33px; width:40px" /></a>&nbsp;&nbsp;
         <a href="https://discord.gg/Bh3uxTak5A"><img alt="Discord Logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" style="height:30px; width:40px" /></a>
     </p>
     Cosmic Caliber is Powered by <a id="powered-by-link" href="https://ryanvilbrandt.github.io/comic_git">comic_git</a> v{{ version }} © BadAspen | LunarFarms 2022 - Present.
