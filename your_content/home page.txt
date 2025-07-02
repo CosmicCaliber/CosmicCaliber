@@ -1,10 +1,19 @@
+ <style>
+        .rainbow-text {
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline;
+        }
+
 <head>
 <div id="container">
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<h3 class="rainbow"><span style="font-size:35px">Welcome To Cosmic Caliber!</h3>
+<h3 class="rainbow-text"><span style="font-size:35px">Welcome To Cosmic Caliber!</h3>
 
 <p style="text-align:center"><span style="font-size:27px">Note: This website is still being tweaked.</p>
 
