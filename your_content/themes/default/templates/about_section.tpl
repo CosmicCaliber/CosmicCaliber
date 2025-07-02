@@ -81,8 +81,7 @@
     
     <h2>About me</h2>
     
-    <!-- About me image placeholder -->
-    <div class="image-placeholder">
+
        <img src="C:\Users\Aspen\Documents\GitHub\CosmicCaliber\your_content\images\question.png">
     </div>
     
