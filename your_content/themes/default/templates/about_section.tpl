@@ -44,7 +44,14 @@
             margin: 20px auto;
             max-width: 100%;
         }
-       
+        body {
+            font-family: Agdasima-Regular, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
         h1, h2 {
             color: #2a2a2a;
         }
@@ -62,32 +69,25 @@
     <!-- Logo at the start -->
     <img src="your-logo.png" alt="Cosmic Caliber Logo" class="logo">
     
-    <p><span style="font-size:27px">Cosmic Caliber is a webcomic created by <a href="https://bsky.app/profile/badaspen.bsky.social" target="_blank">BadAspen</a>. 
-	Dive into Elysium. A mysterious and fractured system thrown into chaos. 
-	Follow Kade and his crew of Rovers, on his Journey to becoming a <span class="rainbow-text">SUPERSTAR</span>.</p>
+    <p><span style="font-size:27px">Cosmic Caliber is a webcomic created by <a href="https://bsky.app/profile/badaspen.bsky.social" target="_blank">BadAspen</a>. Dive into Elysium. A mysterious and fractured system thrown into chaos. Follow Kade and his crew of Rovers, on his Journey to becoming a <span class="rainbow-text">SUPERSTAR</span>.</p>
     
     <!-- Gif placeholder -->
     <div class="image-placeholder">
         [Insert GIF here]
     </div>
     
-    <p><span style="font-size:27px">Cosmic Caliber is inspired by an assortment of comics and manga, cartoons and anime. 
-	Taking all my favorite things and compiling it into a story that I have been writing for 10+ years.</p>
+    <p><span style="font-size:27px">Cosmic Caliber is inspired by an assortment of Comics and Manga, cartoons and anime. Taking all my favorite things and compiling it into a story that I have been writing for 10+ years.</p>
     
-    <p><span style="font-size:27px">This webcomic is meant for a mature and older audience. 
-	Don't let the cute art style fool you. 
-	It's gonna be a <span class="italic">wild ride</span>. 
-	Cosmic Caliber will contain profanity, blood and gore and mature themes please be advised.</p>
+    <p><span style="font-size:27px">This webcomic is meant for a mature and older audience. Don't let the cute art style fool you. It's gonna be a <span class="italic">wild ride</span>. Cosmic Caliber will contain profanity, blood and gore and mature themes please be advised.</p>
     
     <h2>About me</h2>
     
-
-		<p><img src="your_content/images/question.png"></p>
+    <!-- About me image placeholder -->
+    <div class="image-placeholder">
+        C:\Users\Aspen\Documents\GitHub\CosmicCaliber\your_content\images\question.png
     </div>
     
-    <p><span style="font-size:27px">Hi! I'm Aspen. I am a furry artist and writer with a deep passion for creating. 
-	I've been drawing most of my life and Cosmic Caliber is my passion project. I've been working on this project for the better part of 2 years while the story has been in my brain for about 10. 
-	I am so excited to share this universe with you.</p>
+    <p><span style="font-size:27px">Hi! I'm Aspen. I am a furry artist and writer with a deep passion for creating. I've been drawing most of my life and Cosmic Caliber is my passion project. I've been working on this project for the better part of 2 years while the story has been in my brain for about 10. I am so excited to share this universe with you.</p>
     
     <p><span style="font-size:27px">If you would like to support this project, head over to my <a href="https://www.patreon.com/badaspen" class="orange-link" target="_blank">Patreon</a>. Any support helps!</p>
     
