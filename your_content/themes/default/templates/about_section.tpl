@@ -45,7 +45,7 @@
             max-width: 100%;
         }
         body {
-            font-family: Arial, sans-serif;
+            font-family: Agdasima-Regular, sans-serif;
             line-height: 1.6;
             max-width: 800px;
             margin: 0 auto;
