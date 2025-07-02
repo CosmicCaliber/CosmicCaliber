@@ -82,7 +82,7 @@
     <h2>About me</h2>
     
 
-       <img src="C:\Users\Aspen\Documents\GitHub\CosmicCaliber\your_content\images\question.png">
+		<p><img src="your_content/images/question.png"></p>
     </div>
     
     <p><span style="font-size:27px">Hi! I'm Aspen. I am a furry artist and writer with a deep passion for creating. 
