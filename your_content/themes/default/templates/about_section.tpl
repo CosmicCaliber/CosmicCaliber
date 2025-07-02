@@ -44,14 +44,7 @@
             margin: 20px auto;
             max-width: 100%;
         }
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
+     
         h1, h2 {
             color: #2a2a2a;
         }
