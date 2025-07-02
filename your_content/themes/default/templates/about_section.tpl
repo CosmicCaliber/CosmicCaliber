@@ -84,7 +84,7 @@
     
     <!-- About me image placeholder -->
     <div class="image-placeholder">
-        [Insert your photo here]
+        C:\Users\Aspen\Documents\GitHub\CosmicCaliber\your_content\images\question.png
     </div>
     
     <p><span style="font-size:27px">Hi! I'm Aspen. I am a furry artist and writer with a deep passion for creating. I've been drawing most of my life and Cosmic Caliber is my passion project. I've been working on this project for the better part of 2 years while the story has been in my brain for about 10. I am so excited to share this universe with you.</p>
