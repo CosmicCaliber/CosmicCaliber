@@ -1,12 +1,3 @@
- <style>
-        .rainbow-text {
-            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            display: inline;
-        }
-
 <head>
 <div id="container">
 </head>
