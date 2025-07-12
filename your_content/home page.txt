@@ -10,8 +10,8 @@
 
 <p style="text-align:center"><span style="font-size:27px">Cosmic Caliber is a webcomic is made by BadAspen.</p>
 <p style="text-align:center"><span style="font-size:27px">Check out my socials to keep up to date!!</p>
-<p style="text-align:center"><span style="font-size:27px">⚠️ For mature audiences. Space gets messy. So do the people in it.. ⚠️
-Themes include violence, harsh language and blood/gore.</p>
+<p style="text-align:center"><span style="font-size:27px">⚠️ For mature audiences. Space gets messy. So do the people in it.. 
+Themes include violence, harsh language and blood/gore.⚠️</p>
 
 
 <a class="responsive-img" href="comic/1/#comic-page" target="_blank"><img src="your_content\images\navigation_icons\Icon_First.png" ></a>
