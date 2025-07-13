@@ -6,7 +6,7 @@
 
 <h3>
   <span class="title-prefix">Welcome To </span>
-  <span class="rainbow-text">Cosmic Caliber!</span>
+  <span class="rainbow-text">Cosmic Caliber!!</span>
 </h3>
 
 <p style="text-align:center"><span style="font-size:27px">Note: This website is still being tweaked.</p>
