@@ -155,3 +155,40 @@ div#storyline, div#characters, div#tags {
         flex-direction: column;
     }
 }
+
+.centered-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    transform: scale(0.6);
+    transform-origin: center;
+}
+
+.navigation-icons img {
+    margin: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.navigation-icons img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 6px orange);
+}
+
+.rainbow-text {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 40px;     /* Make it larger */
+    font-weight: bold;   /* Make it thicker */
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+.title-prefix {
+    font-size: 40px;
+    font-weight: bold;
+    color: black; /* Or purple, if you'd like it more thematic */
+}
