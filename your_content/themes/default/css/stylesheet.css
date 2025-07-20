@@ -192,3 +192,28 @@ div#storyline, div#characters, div#tags {
     font-weight: bold;
     color: black; /* Or purple, if you'd like it more thematic */
 }
+
+#chapter-select-container {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to bottom, #9654cd, #8a40c7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#chapter-select {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+} /* ← This line closes the style block */
