@@ -217,3 +217,28 @@ div#storyline, div#characters, div#tags {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 } /* ← This line closes the style block */
+
+.character-select {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.character {
+  text-align: center;
+  cursor: pointer;
+}
+
+.character img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#bio-box {
+  margin-top: 40px;
+  text-align: center;
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}

@@ -54,8 +54,7 @@
     }
 </style>
 
-<!-- Logo at the top -->
-<img src="/your_content/images/your-logo.png" alt="Cosmic Caliber Logo" class="logo">
+<div id="container">
 
 <p style="font-size:27px">
     Cosmic Caliber is a webcomic created by 
@@ -64,7 +63,7 @@
     on his journey to becoming a <span class="rainbow-text">SUPERSTAR</span>.
 </p>
 
-<img src="/your_content/images/feature-gif.gif" alt="Featured GIF" class="centered-image">
+<img src="/your_content/images/kade.gif" alt="Kade Gif" class="centered-image">
 
 <p style="font-size:27px">
     Cosmic Caliber is inspired by an assortment of comics, manga, cartoons, and anime.

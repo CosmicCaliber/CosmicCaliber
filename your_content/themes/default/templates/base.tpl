@@ -34,40 +34,79 @@ in this template, before they're used to create HTML files. #}
 <body>
 {% block body %}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <div id="banner" class="banner-container">
-    <a id="banner-img-link" href="{{ base_dir }}/">
-        <img id="banner-img" alt="banner" src="{{ banner_image }}">
-    </a>
+  <a id="banner-img-link" href="{{ base_dir }}/">
+    <img id="banner-img" alt="banner" src="{{ banner_image }}">
+  </a>
 </div>
 
 <!-- Hamburger Menu for Mobile -->
 <div id="hamburger-menu" class="hamburger">
-    Menu
+  Menu
 </div>
 
 <div id="links-bar" class="desktop-nav">
-    {%- for link in links %}
+  {%- for link in links %}
     <a class="link-bar-link" href="{{ link.url }}">{{ link.name }}</a>
     {% if not loop.last %}<span class="link-bar-separator">|</span>{% endif %}
-    {%- endfor %}
+  {%- endfor %}
 </div>
 
 <div id="container">
-    {% block content %}{% endblock %}
+  {% block content %}{% endblock %}
 </div>
 
+<!-- 🌐 Social Media Icons -->
 <div id="powered-by">
-    <p style="text-align:center">
-		<a href="https://t.me/AspensArtRoom" target="_blank"><img alt="Patreon Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" style="height:35px; width:35px" /></a>&nbsp;&nbsp;
-        <a href="https://www.patreon.com/BadAspen" target="_blank"><img alt="Patreon Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Patreon_logo.svg/800px-Patreon_logo.svg.png" style="height:35px; width:35px" /></a>&nbsp;&nbsp;
-        <a href="https://bsky.app/profile/badaspen.bsky.social" target="_blank"><img alt="Twitter Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1200px-Bluesky_Logo.svg.png" style="height:33px; width:40px" /></a>&nbsp;&nbsp;
-        <a href="https://discord.gg/Bh3uxTak5A"><img alt="Discord Logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" style="height:30px; width:40px" /></a>
-		<a href="https://www.webtoons.com/en/canvas/cosmic-caliber-/list?title_no=940860" target="_blank"><img alt="Patreon Logo" src="https://api-about.webtoon.com/files/download?fileNo=66" style="height:35px; width:35px" /></a>&nbsp;&nbsp;
-    </p>
-    Cosmic Caliber is Powered by <a id="powered-by-link" href="https://ryanvilbrandt.github.io/comic_git">comic_git</a> v{{ version }} © BadAspen | LunarFarms 2022 - Present.
+  <div class="social-icons">
+    <a href="https://t.me/AspensArtRoom" target="_blank">
+      <img alt="Telegram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" />
+    </a>
+    <a href="https://www.patreon.com/BadAspen" target="_blank">
+      <img alt="Patreon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Patreon_logo.svg/800px-Patreon_logo.svg.png" />
+    </a>
+    <a href="https://bsky.app/profile/badaspen.bsky.social" target="_blank">
+      <img alt="Bluesky" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1200px-Bluesky_Logo.svg.png" />
+    </a>
+    <a href="https://discord.gg/Bh3uxTak5A" target="_blank">
+      <img alt="Discord" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" />
+    </a>
+    <a href="https://www.webtoons.com/en/canvas/cosmic-caliber-/list?title_no=940860" target="_blank">
+      <img alt="Webtoon" src="https://api-about.webtoon.com/files/download?fileNo=66" />
+    </a>
+  </div>
+
+  <p style="text-align:center">
+    Cosmic Caliber is Powered by
+    <a id="powered-by-link" href="https://ryanvilbrandt.github.io/comic_git">comic_git</a>
+    v{{ version }} © BadAspen | LunarFarms 2022 - Present.
+  </p>
 </div>
 
 {% endblock %}
+
+<!-- 💅 Add this CSS to your global stylesheet or inside <style> in <head> -->
+<style>
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+  }
+
+  .social-icons img {
+    height: 35px;
+    width: auto;
+    transition: transform 0.2s ease;
+  }
+
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+</style>
+
 <script src="{{ base_dir }}/your_content/themes/{{ theme }}/js/script.js"></script>
 {% block script %}{% endblock %}
 </body>
