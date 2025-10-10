@@ -78,6 +78,14 @@
   font-family: Big Space 
 }
 
+@font-face {
+  font-family: 'Big Space';
+  src: url('/fonts/BigSpace.woff2') format('woff2'),
+       url('/fonts/BigSpace.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @keyframes glowPulse {
   0%, 100% {
     text-shadow:
