@@ -63,7 +63,7 @@
     on his journey to becoming a <span class="rainbow-text">SUPERSTAR</span>.
 </p>
 
-<img src="/your_content/images/kade.gif" alt="Kade Gif" class="centered-image">
+<img src="/your_content/images/IconKade.png" alt="Kade Icon" class="centered-image">
 
 <p style="font-size:27px">
     Cosmic Caliber is inspired by an assortment of comics, manga, cartoons, and anime.
