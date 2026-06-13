@@ -129,7 +129,7 @@ function autoSlide() {
 
   slides[index - 1].classList.add("active");
 
-  setTimeout(autoSlide, 4000); // 4 seconds per slide
+  setTimeout(autoSlide, 5000); // 5 seconds per slide
 }
 </script>
 
