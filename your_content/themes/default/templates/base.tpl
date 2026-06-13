@@ -61,13 +61,13 @@ in this template, before they're used to create HTML files. #}
 <div id="powered-by">
   <div class="social-icons">
     <a href="https://t.me/AspensArtRoom" target="_blank">
-      <img alt="Telegram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" />
+      <img alt="Telegram" src="\your_content\images\telegram.png" />
     </a>
     <a href="https://www.patreon.com/BadAspen" target="_blank">
       <img alt="Patreon" src="https://cdn.freebiesupply.com/logos/large/2x/patreon-logo-png-transparent.png" />
     </a>
     <a href="https://bsky.app/profile/badaspen.bsky.social" target="_blank">
-      <img alt="Bluesky" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1200px-Bluesky_Logo.svg.png" />
+      <img alt="Bluesky" src="\your_content\images\bluesky.png" />
     </a>
     <a href="https://discord.gg/Bh3uxTak5A" target="_blank">
       <img alt="Discord" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" />

@@ -1,8 +1,56 @@
-<head>
-<div id="container">
-</head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* --- Slideshow container --- */
+    .slideshow {
+      position: relative;
+      width: 60%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    /* --- Each slide --- */
+    .slideshow .slide {
+      display: none;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.6s ease-in-out;
+    }
+
+    /* --- The visible slide --- */
+    .slideshow .slide.active {
+      display: block;
+      position: relative;
+      opacity: 1;
+    }
+
+    /* --- Override your site's hover zoom --- */
+    .slideshow img {
+      width: 100%;
+      transform: none !important;
+      transition: none !important;
+    }
+
+    /* --- Caption styling --- */
+    .slideshow .caption {
+      margin-top: 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+
+<body>
+<div id="container">
 
 <h3>
   <span class="title-prefix">Welcome To </span>
@@ -28,7 +76,24 @@ Themes include violence, harsh language and blood/gore.⚠️</p>
   </a>
 </div>
 
-<p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:60%;" /></strong></em></span></p>
+
+<div class="slideshow">
+
+  <div class="slide active">
+    <img src="your_content/images/freeride.png" />
+    <p class="caption">
+      Freeride cover made by 
+      <a href="https://bsky.app/profile/korbyxd.bsky.social" target="_blank" class="purple-link">The Dingo</a>
+    </p>
+  </div>
+
+  <div class="slide">
+    <img src="your_content/images/coverone.png" />
+  </div>
+
+</div> <!-- END SLIDESHOW -->
+
+
 
 <div class="navigation-icons">
   <a href="comic/1/#comic-page" target="_blank">
@@ -39,6 +104,7 @@ Themes include violence, harsh language and blood/gore.⚠️</p>
   </a>
 </div>
 
+
 <p style="text-align:center"><span style="font-size:18px"><strong>Thank you to the </strong><span style="color:hsl(30, 75%, 60%)"><strong>Patreon&#39;s</strong></span><strong> who have supported 10$ or more monthly!!</strong></span></p>
 <a href="https://www.patreon.com/BadAspen" target="_blank"><img alt="Patreon Logo" src="https://cdn.freebiesupply.com/logos/large/2x/patreon-logo-png-transparent.png" style="height:50px; width:50px"></a>
 
@@ -46,7 +112,31 @@ Themes include violence, harsh language and blood/gore.⚠️</p>
 
 <p style="text-align:center"><span style="font-size:22px"><em><strong>List of </strong></em><span style="color:hsl(30, 75%, 60%)"><em><strong>patrons</strong></em></span></span></p>
 
-<p><span style="font-size:20px"><em></em></span></p>
+</div> <!-- end container -->
+
+
+<script>
+let index = 0;
+autoSlide();
+
+function autoSlide() {
+  let slides = document.querySelectorAll(".slideshow .slide");
+
+  slides.forEach(s => s.classList.remove("active"));
+
+  index++;
+  if (index > slides.length) index = 1;
+
+  slides[index - 1].classList.add("active");
+
+  setTimeout(autoSlide, 4000); // 4 seconds per slide
+}
+</script>
+
+
+
+</body>
+</html>
 
 
 
