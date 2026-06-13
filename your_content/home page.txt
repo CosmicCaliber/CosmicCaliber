@@ -80,7 +80,7 @@ Themes include violence, harsh language and blood/gore.⚠️</p>
 <div class="slideshow">
 
   <div class="slide active">
-    <img src="your_content/images/freeride.png" />
+    <img src="your_content/images/Freeride.png" />
     <p class="caption">
       Freeride cover made by 
       <a href="https://bsky.app/profile/korbyxd.bsky.social" target="_blank" class="purple-link">The Dingo</a>
